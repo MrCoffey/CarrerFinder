@@ -1,0 +1,150 @@
+body{
+	background-color: #F1F1F1;
+}
+
+/*****HEADER****/
+header{
+	background-color: #77F3E8;
+	opacity: 0.7;
+	position: fixed;
+	-webkit-box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.37);
+	-moz-box-shadow:    0px 2px 9px 0px rgba(50, 50, 50, 0.37);
+	box-shadow:         0px 2px 9px 0px rgba(50, 50, 50, 0.37);
+	top: 0;
+	width: 100%;
+}
+.container h1{
+	margin-left: 10%;
+	color: #054A6E;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 4em;
+}
+.container ul{
+	float: right;
+	display: inline-block;
+	margin-top: 3%;
+} 
+
+.red .active a,
+.nav .red a:hover {
+	color: #fff;
+    background-color: #054A6E;
+}
+
+/***BANER CENTRAL***/
+.jumbotron{
+	background: url('http://i221.photobucket.com/albums/dd35/visual_destructor/banner-1.png') 50% / cover;
+	background-repeat: no-repeat;
+	padding: 15%;	
+	width: 100%;
+	background-attachment: fixed;
+}
+.jumbotron h3{
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 5em;
+	/*font-style: italic;*/
+	text-align: center;
+}
+.jumbotron p span{
+	color: #054A6E;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 2em;
+}
+.jumbotron p strong{
+	text-decoration: underline;
+}
+.jumbotron p{
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.jumbotron p strong{
+	text-decoration: underline;
+}
+.info{
+	padding: 10px 50px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+/**QUERTY**/
+.jumbotron .container h2{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.jumbotron .container .col-lg-8{
+	margin-left: 16%;
+}
+.jumbotron button{
+	font-family: 'Raleway', sans-serif;
+}
+
+/**THUMBNAIL**/
+.thumbnail{
+	position: relative;
+	margin: 5% 5%;
+
+}
+
+.caption h3{
+	font-family: 'Raleway', sans-serif;
+	font-style: bold;
+	text-align: center;
+}
+
+.caption p{
+	font-family: 'Raleway', sans-serif;
+	font-style: bold;
+	text-align: justify;
+}
+/***BANER 2***/
+.jumbotron2 .jumbotron{
+	background: url('http://i221.photobucket.com/albums/dd35/visual_destructor/WVU_Student_Rec_Center-1.png') 50% / cover;
+	background-repeat: no-repeat;
+	padding: 15%;	
+	width: 100%;
+	background-attachment: fixed;
+}
+
+
+/**FOOTER**/
+footer form{
+	background-color: #3664a5;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0.2%;
+	padding: 2% 40%;
+}
+/**CONTACTS LEFT**/
+footer .row{
+	background-color: #071e41;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 0.2%;
+	text-align: center;
+	padding-top: 2%;
+}
+footer .row .container{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+/**FOOTER CONTACT**/
+footer .row .container .col-md-8{
+	margin-top: 3%;
+}
+footer .row .container img{
+	margin-left: 5%;
+}
+footer .row .container img:hover{
+	margin-left: 5%;
+	opacity: 0.5;
+}
+footer .row .container a{
+	color: #ffffff;
+	margin-right: 5%;
+	text-decoration: none;
+}
+footer .row .container a:hover{
+	color: #3664a5;
+}

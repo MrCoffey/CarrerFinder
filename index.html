@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--Version 1.0 for CareerFinder web page.-->
+<!--Features: 100% responsive, not contain any js sheet or server side features,the most of the content has copy right and must be changed,	hover on anchor elements/img are ok but thumbnails doesn't. Some icons such as title label and search form must be added.-->
+	<title>CareerFinder | LatinoAmerica</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="Content-Type" charset="utf-8"/>
+	<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:700|Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+
+<!--En este header basicamente estan los links que componen el nav bar-->
+	<header>
+		<div class="nav">
+			<div class="container">
+				<h1  class="pull-left" >CareerFinder</h1>
+				<ul class="nav nav-pills red" role="tablist">
+					<li><a href="#">Primary</a></li>
+					<li><a href="#">Social</a></li>
+					<li><a href="#">Promotions</a></li>
+					<li><a href="#">Updates</a></li>
+				</ul>
+			</div><!-- /container -->
+		</div><!-- /nav -->	
+	</header>
+<!--este la primera pieza donde se encuentra el buscador y uno de los banners-->	
+		<div class="jumbotron">
+			<div class="container">
+				<h2>We will help you to find your <strong>future.</strong></h2><br/>
+				  <div class="col-lg-8">
+				    <div class="input-group">
+				      <input type="text" class="form-control" autocomplete="off" type="text" id="querty" class="form-control input-lg" placeholder="Search for a field of study e.g. Maths">
+				      <span class="input-group-btn">
+				        <button class="btn btn-warning" type="button">Search
+				        </button>
+				      </span>
+				    </div><!-- /input-group -->
+				  </div><!-- /.col-lg-6 -->
+				</div><!-- /.row -->
+			</div>
+
+<!-- aqui encotramos las imagenes que serviran como referencia a las plataformas en la que se soportara el servicio (las imagenes son temporales) -->			
+	<div class="row">
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="img/imagen1.png" alt="Enlace Roto" width="210px" height="210px">
+	      <div class="caption">
+	        <h3>Thumbnail label</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua.</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Inscribeme</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde.</a></p>
+	      </div>
+	    </div>
+	  </div><!-- col-sm-6 col-md-4 -->
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="img/imagen2.png" alt="Enlace Roto" width="200px" height="200px">
+	      <div class="caption">
+	        <h3>Thumbnail label</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua.</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Inscribeme</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde.</a></p>
+	      </div>
+	    </div>
+	  </div><!--col-sm-6 col-md-4-->
+	  <div class="col-sm-6 col-md-4">
+	    <div class="thumbnail">
+	      <img src="img/imagen3.png" alt="Enlace Roto" width="210px" height="210px">
+	      <div class="caption">
+	        <h3>Thumbnail label</h3>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magna aliqua.</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Inscribeme</a> <a href="#" class="btn btn-default" role="button">Ver mas tarde.</a></p>
+	      </div>
+	    </div>
+	  </div><!--col-sm-6 col-md-4-->
+	</div><!--cierra el row-->
+<!--Segundo banner fijo al scroll roll-->	
+	<div class="jumbotron2">
+		<div class="jumbotron">
+			<h3>
+					"Learning is a matter of<br/>Choise"
+				</h3>
+				<p>	
+	            <span>CareerFinder</span> have a diverse set of academic 
+				and industry
+	            experiences that will help you in the <strong>most </strong>important part of you profesional life.                        
+			</p>
+		</div>
+	</div>
+<!--Este es el footer compuesto por un formulario y los datos de contactos-->	
+	<footer>
+		<form role="form">
+			<div class="form-group">
+				<label for="name">First Name : </label>
+				<input type="text" id="name" name="firstname" placeholder="Enter your name" class="form-control input-sm">
+			</div>
+				
+			<div class="form-group">
+					<label for="lastname">Last Name : </label>
+					<input type="text" id="lastname" name="lastname" placeholder="Enter lastname" class="form-control input-sm">
+			</div>
+
+			<div class="form-group">
+				<label for="email">E-mail : </label>
+				<input type="email" id="email" name="email" placeholder="Enter email" class="form-control input-sm">
+			</div>
+
+			<div class="form-group">	
+				<label for="phone">Phone : </label>
+				<input type="phone" id="phone" name="phone" placeholder="Enter yor phone" class="form-control input-sm">
+			</div>	
+			<div class="form-group">
+				<label for="comments">Let us know what you think :</label>
+				<textarea id="comments" cols="20" rows="2" class="form-control input-sm">
+				</textarea>
+			</div>
+			<div class="button">
+				<button type="submit" class="btn btn-warning">Send
+				</button>
+			</div>
+		</form><!--Fin del formulario-->
+		<div class="row">
+
+<!--datos de contacto-->
+			<div class="col-md-4">
+				<address>
+					  <strong>CareerFinder, Inc.</strong><br>
+					  795 Folsom Ave, Suite 600<br>
+					  San Francisco, CA 94107<br>
+					  <span class="glyphicon glyphicon-phone-alt"></span>
+					  <abbr title="Phone">P: </abbr><a href="phone:#">(123) 456-7890</a><br/>
+					  <span class="glyphicon glyphicon-envelope"></span>
+					  <strong>Contact us</strong><br>
+				  	  <a href="mailto:#">contact@example.com</a>
+				</address>
+			</div>
+<!--conexion a redes sociales (todos los datos son ficticios)-->			
+				<div class="container">
+					<div class="col-md-8">
+						<a href="#">Facebook.com/CareerFinder<img src="img/facebook.png" width="40" height="40"></a>
+						<a href="#">Twitter.com/CareerFinder<img src="img/twitter2.png" width="40" height="40"></a>
+					</div>	
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
